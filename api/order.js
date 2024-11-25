@@ -48,7 +48,7 @@ const transport = nodemailer.createTransport({
   port: 587,
   auth: {
     user: "api",
-    pass: '5d8d1e6c82408e7bf84d86ea16afccc5'
+    pass: process.env.MAILTRAP
   }
 });
 
